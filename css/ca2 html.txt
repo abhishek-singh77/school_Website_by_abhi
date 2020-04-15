@@ -1,0 +1,101 @@
+Ans 1-  We use <div> tag to create section of content to be formatted with style sheet.
+     we can use <section> tag but for styling purpose we should prefer <div> tag instead.
+
+
+Ans 2- a-Attribute is a term we used in HTML, where as Propert is term that belongs to DOM.
+       b-Attribute is a quality or additonal feature belonging to a tag or element, where as
+         Property is a characteristic of an object corresponding to a DOM.
+       c-The value or feature of an attribute can't be changed but the value of property can be changed.
+       d-The attributes role is basicaly to initalize the DOM property.
+       e-we can't use angular bindings with attributes but we can use it with DOM.
+
+Ans 3- The main difference between var keyword and let keyword is that, Varibles intialised using
+       var keywords are globally accesseble regardless of the block scope. Where as the variables
+       initalised using the let keyword is stricted to the block in which it is intalised.
+
+Ans 4- We use ";"(semicolon) to end an statement in javascript.
+
+Ans 5- The advantages of javascript are as follows:-
+	1- It is easy to learn for a new programmer.
+	2- Debugging and testing is comparatively easier in it.
+	3- Syntax are simpler to understand.
+	4- It is comparatively faster then other languages. 
+Ans 6- There are different ways to declare a variable in javascript:-
+         1- 'var':- Var is a function scoped keyword used to declare a varible globally.
+         2- 'let':- Let is blocked scope. It strcits the scope of the declared varible to the active block only in which it is declared.
+         3- 'const':- Const is only used when we know that a variable is not declared again.
+	  TYPES OF VARIABLES:- (Data Types)
+	  1- String.
+	  2- Number.
+	  3- Boolean.
+	  4- Null.
+	  5- Undefined.
+	  6- Any of the complex data structures like Array and Objects.
+Ans 7- We have follwing keywords for using conditonal statement in javascript:-
+	  1- if condition is used in javascript. It is executed when the code or statement is true.
+	  2- else condition is executed when the statement is false.
+	  3- Nested if-else condition is executed when we need to apply more conditon.
+	  4- switch statement is used when there are more alternative case corresponding to a particular statement are there, 
+	     it is used along with 'break' keyword after each case.
+	 example:-
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<title> CA conditional statement</title>
+	</head>
+	<body>
+	<h2> conditon using if else </h2>
+	<script>
+	var x;
+	for (n = 0; x < 6; n++)
+	{
+	if(x == 4)	
+	{
+	document.write("the value of x is 4");
+	break;
+	}
+	else if(x==2){
+	document.write("the value of x is 2");
+	}
+	}
+	</script>	
+	</body>
+	</html>
+
+Ans 8- Div tag is a tag used in html to separate data in a web page and also to create a particular section for a particular data.
+	  It is used to the group of various tags of HTML so that sections can be created and style can be applied to them.
+	  EXAMPLE:-
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<title>div tag example for CA</title>
+	<style>
+	h2
+	{
+	    color:yellow;
+	}
+	p
+	{
+	    color:orange;
+	}
+	div h2
+	{
+	    color:green;
+	}
+	div p
+	{	
+	    color:green;
+	}
+	</style>
+	</head>
+	<body>
+	<h2>this is without div heading</h1>
+	        <p>this is without div Paragraph</p>
+ 
+        	<div>
+        	    <h1>Div Heading </h1>
+        	    <p>Div Paragraph </p>
+        	</div>
+	</body>
+	</html>
